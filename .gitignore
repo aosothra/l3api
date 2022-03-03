@@ -12,9 +12,6 @@ build/
 develop-eggs/
 dist/
 downloads/
-Include/
-Lib/
-Scripts/
 eggs/
 .eggs/
 lib/
@@ -115,7 +112,6 @@ celerybeat.pid
 *.sage.py
 
 # Environments
-pyvenv.cfg
 .env
 .venv
 env/
