@@ -14,7 +14,7 @@ dist/
 downloads/
 Include/
 Lib/
-Scripts/
+scripts/
 eggs/
 .eggs/
 lib/
