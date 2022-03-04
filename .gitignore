@@ -17,6 +17,7 @@ eggs/
 lib/
 Scripts/
 Include/
+info/
 lib64/
 parts/
 sdist/
