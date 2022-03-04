@@ -8,7 +8,7 @@ This script uses [Bitly API](https://bitly.com) to create short versions of give
 
 
 You must have Python3 installed on your system.
-You may use 'pip' (or 'pip3' to avoid conflict with Python2) to install dependencies.
+You may use `pip` (or `pip3` to avoid conflict with Python2) to install dependencies.
 ```
 pip install -r requirements.txt
 ```
@@ -16,9 +16,9 @@ It is strongly advised to use [virtualenv/venv](https://docs.python.org/3/librar
 
 In order to access Bitly API endpoints, you'll need a valid 'access_token' ([get it here](https://app.bitly.com/settings/api/))
 
-This script uses .env file in root folder to store the 'access_token'. So, do not forget to create one!
+This script uses `.env` file in root folder to store the 'access_token'. So, do not forget to create one!
 
-Here is how contents of your .env file should look like:
+Here is how contents of your `.env` file should look like:
 ```
 BITLY_ACCESS_TOKEN='putyouraccesstokenhere'
 ```
@@ -33,7 +33,7 @@ Bitlink: https://bit.ly/######
 py main.py https://bit.ly/######
 Click count: 0
 ```
-You can use -h to display help message
+You can use `-h` flag to display help message
 ```
 py main.py -h
 ```
