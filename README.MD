@@ -14,6 +14,16 @@ pip install -r requirements.txt
 ```
 It is strongly advised to use [virtualenv/venv](https://docs.python.org/3/library/venv.html) for project isolation.
 
+In order to access Bitly API endpoints, you'll need a valid 'access_token' ([get it here](https://app.bitly.com/settings/api/))
+
+This script uses .env file in root folder to store the 'access_token'. So, do not forget to create one!
+
+Here is how contents of your .env file should look like:
+```
+BITLY_ACCESS_TOKEN='putyouraccesstokenhere'
+```
+
+
 ### Basic usage (for the lack of any other...)
 
 ```
