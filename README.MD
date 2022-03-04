@@ -1,7 +1,7 @@
 # Bitly URL Shortener
 
 
-This script uses Bitly API to create short versions of given Hyperlinks known as Bitlinks. It can also be used to fetch total amount of click for previously created Bitlinks.
+This script uses [Bitly API](https://bitly.com) to create short versions of given Hyperlinks known as Bitlinks. It can also be used to fetch total amount of click for previously created Bitlinks.
 
 
 ### Installation guidelines
